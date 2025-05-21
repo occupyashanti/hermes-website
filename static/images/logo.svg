@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hat -->
+    <path d="M8 20C8 15 12 12 20 12C28 12 32 15 32 20C32 25 28 28 20 28C12 28 8 25 8 20Z" fill="#000000"/>
+    <!-- Hat Brim -->
+    <path d="M5 20C5 20 8 30 20 30C32 30 35 20 35 20" stroke="#000000" stroke-width="2" fill="none"/>
+    <!-- Feather -->
+    <path d="M32 15C32 15 35 10 38 12C41 14 39 18 36 20C33 22 30 25 28 28" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M32 15C32 15 34 12 36 10C38 8 40 10 39 12" stroke="#000000" stroke-width="1.5" fill="none"/>
+</svg> 

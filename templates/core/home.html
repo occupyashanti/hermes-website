@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f97316">
+    <title>Hermes Security Agent - Research & Innovation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.min.js"></script>
+</head>
+<body style="font-family: 'Inter', system-ui, 'Segoe UI', Roboto, Arial, sans-serif;">
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/static/images/logo.svg" alt="Hermes Logo" class="logo-img" loading="lazy">
+                <span class="logo" style="color: #000000;">HERMES</span>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-controls="nav-links" aria-expanded="false" tabindex="0">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" tabindex="0">Home</a></li>
+                <li><a href="#research" tabindex="0">Research</a></li>
+                <li><a href="#how-it-works" tabindex="0">How It Works</a></li>
+                <li><a href="#contact" tabindex="0">Contact</a></li>
+                <li><a href="#pricing" tabindex="0">Pricing</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-title">
+                <img src="/static/images/logo.svg" alt="Hermes Logo" class="hero-logo" loading="lazy">
+                <h1>Towards Autonomous Threat Prediction in Surveillance</h1>
+            </div>
+            <p class="subtitle high-contrast">A Hybrid Model Combining Vision, Behavioral Pattern Recognition, and Reinforcement Learning for Intelligent Security Systems</p>
+            <div class="hero-buttons">
+                <a href="#research" class="btn btn-primary">Explore Research</a>
+                <a href="#contact" class="btn btn-dark">Request Demo</a>
+            </div>
+            <div class="aspirational-metrics">
+                <div class="metric-item">
+                    <span class="metric-value">10,000+</span>
+                    <span class="metric-label">Threats Blocked Daily (Designed)</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value">&lt;20ms</span>
+                    <span class="metric-label">Avg. Response Time</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="research" class="features-section">
+        <div class="container">
+            <h2>Research Overview</h2>
+            <div class="features-grid">
+                <div class="feature-card compact" data-aos="fade-up">
+                    <div class="feature-header">
+                        <i class="fas fa-eye fa-2x text-orange-500 feature-icon"></i>
+                        <h3>Computer Vision</h3>
+                        <button class="info-btn" data-tooltip="Click to see how our vision system detects and tracks objects in real-time">
+                            <i class="fas fa-info-circle"></i>
+                        </button>
+                    </div>
+                    <p>Advanced object detection and tracking using state-of-the-art models like YOLO and DeepSort for real-time surveillance analysis.</p>
+                    <div class="feature-details">
+                        <div class="feature-stats">
+                            <div class="stat">
+                                <span class="stat-value">99.8%</span>
+                                <span class="stat-label">Detection Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">30ms</span>
+                                <span class="stat-label">Processing Time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card compact" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-header">
+                        <i class="fas fa-project-diagram fa-2x text-orange-500 feature-icon"></i>
+                        <h3>Pattern Recognition</h3>
+                        <button class="info-btn" data-tooltip="See how our system identifies suspicious behavior patterns">
+                            <i class="fas fa-info-circle"></i>
+                        </button>
+                    </div>
+                    <p>Sophisticated behavioral analysis using pose estimation, gait analysis, and anomaly detection algorithms to identify potential threats.</p>
+                    <div class="feature-details">
+                        <div class="feature-stats">
+                            <div class="stat">
+                                <span class="stat-value">95%</span>
+                                <span class="stat-label">Pattern Recognition Rate</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">45ms</span>
+                                <span class="stat-label">Analysis Time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card compact" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-header">
+                        <i class="fas fa-robot fa-2x text-orange-500 feature-icon"></i>
+                        <h3>Reinforcement Learning</h3>
+                        <button class="info-btn" data-tooltip="Watch how our RL system learns and adapts to new threats">
+                            <i class="fas fa-info-circle"></i>
+                        </button>
+                    </div>
+                    <p>Intelligent decision-making powered by RL algorithms that learn optimal responses to security threats through continuous interaction.</p>
+                    <div class="feature-details">
+                        <div class="feature-stats">
+                            <div class="stat">
+                                <span class="stat-value">98%</span>
+                                <span class="stat-label">Decision Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">15ms</span>
+                                <span class="stat-label">Response Time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>System Architecture</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Perception Layer</h3>
+                    <p>Real-time video processing with object detection, tracking, and face recognition capabilities for comprehensive surveillance.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Pattern Recognition</h3>
+                    <p>Advanced behavioral analysis using pose estimation and anomaly detection to identify suspicious activities and patterns.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Threat Classification</h3>
+                    <p>Multi-class threat assessment system that categorizes potential threats as Immediate, Latent, or Harmless.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Decision Module</h3>
+                    <p>RL-powered decision-making system that learns optimal responses through continuous interaction and feedback.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="methodology" class="features-section">
+        <div class="container">
+            <h2>Research Methodology</h2>
+            <div class="features-grid">
+                <div class="feature" data-aos="fade-up">
+                    <i class="fas fa-database feature-icon"></i>
+                    <h3>Datasets</h3>
+                    <p>Utilizing comprehensive surveillance datasets including UCF-Crime, VIRAT, and CASIA for robust model training.</p>
+                </div>
+                <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Evaluation Metrics</h3>
+                    <p>Rigorous assessment using accuracy, precision, recall, and system latency measurements for comprehensive performance analysis.</p>
+                </div>
+                <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-balance-scale feature-icon"></i>
+                    <h3>Ethical Considerations</h3>
+                    <p>Strong focus on privacy, bias mitigation, and human oversight in all aspects of system operation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Interested in Our Research?</h2>
+            <p class="contact-subtitle">Join us in advancing the future of intelligent security systems</p>
+            <div class="contact-buttons">
+                <a href="#" class="btn btn-primary">Request Research Access</a>
+                <a href="#" class="btn btn-dark">Schedule Technical Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="features-section" style="background: #fff;">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="features-grid" style="grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                <div class="feature-card compact" style="border: 2px solid #f97316;">
+                    <h3 class="text-xl font-bold mb-2">Free</h3>
+                    <p class="text-3xl font-bold mb-4">$0<span class="text-base font-normal">/mo</span></p>
+                    <ul class="text-left mb-4" style="list-style: disc inside;">
+                        <li>Basic threat detection</li>
+                        <li>Email alerts</li>
+                        <li>Community support</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary w-full">Get Started</a>
+                </div>
+                <div class="feature-card compact" style="border: 2px solid #ea580c; background: #fff7ed;">
+                    <h3 class="text-xl font-bold mb-2 text-orange-500">Pro</h3>
+                    <p class="text-3xl font-bold mb-4">$49<span class="text-base font-normal">/mo</span></p>
+                    <ul class="text-left mb-4" style="list-style: disc inside;">
+                        <li>All Free features</li>
+                        <li>Advanced analytics</li>
+                        <li>Priority email & chat support</li>
+                        <li>API access</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary w-full">Start Pro</a>
+                </div>
+                <div class="feature-card compact" style="border: 2px solid #111;">
+                    <h3 class="text-xl font-bold mb-2">Enterprise</h3>
+                    <p class="text-3xl font-bold mb-4">Custom</p>
+                    <ul class="text-left mb-4" style="list-style: disc inside;">
+                        <li>All Pro features</li>
+                        <li>Custom integrations</li>
+                        <li>Dedicated account manager</li>
+                        <li>24/7 phone support</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary w-full">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Section -->
+    <section id="developer" class="features-section" style="background: #fff;">
+        <div class="container">
+            <h2>Meet the Developer</h2>
+            <div class="features-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
+                <div class="feature-card compact" style="text-align: center; padding: 2rem;">
+                    <div class="rounded-full mx-auto mb-6 flex items-center justify-center" style="width: 120px; height: 120px; background: #f3f4f6;">
+                        <i class="fas fa-user-circle text-gray-500" style="font-size: 80px;"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Vyron Mino</h3>
+                    <h4 class="text-xl text-orange-500 font-semibold mb-4">Founder & ML/AI Enthusiast</h4>
+                    <p class="text-lg text-gray-700 mb-6">Vyron is passionate about building intelligent systems that make the world safer. With a background in machine learning, computer vision, and security, he leads the Hermes project with a focus on research-driven innovation and ethical AI.</p>
+                    <div class="flex justify-center gap-4">
+                        <a href="https://github.com/occupyashanti" target="_blank" rel="noopener" aria-label="GitHub" class="text-black hover:text-orange-500 text-4xl"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/kevin-ohare-737606273" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-black hover:text-orange-500 text-4xl"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+                    <h3>What threats can Hermes detect?</h3>
+                    <div class="faq-answer">
+                        <p>Hermes can detect a wide range of threats including unauthorized access, suspicious behavior, loitering, object removal, and more using advanced AI and pattern recognition.</p>
+                    </div>
+                </div>
+                <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+                    <h3>Is Hermes compliant with data privacy regulations?</h3>
+                    <div class="faq-answer">
+                        <p>Yes, Hermes is designed to be GDPR compliant and supports privacy-preserving features such as face and object obfuscation.</p>
+                    </div>
+                </div>
+                <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+                    <h3>How fast does Hermes respond to threats?</h3>
+                    <div class="faq-answer">
+                        <p>Hermes is engineered for sub-20ms response times, ensuring real-time protection and minimal latency.</p>
+                    </div>
+                </div>
+                <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+                    <h3>Can Hermes integrate with my existing security infrastructure?</h3>
+                    <div class="faq-answer">
+                        <p>Absolutely! Hermes is built to be flexible and can integrate with most modern security systems and cloud platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Hermes Security Research</h4>
+                    <p>Advancing the frontier of intelligent security through cutting-edge AI research and development.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#methodology">Methodology</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hermes Security Research. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/interactions.js"></script>
+    <script src="/static/js/enhanced-interactions.js"></script>
+    <script>
+    // Initialize AOS
+    AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100
+    });
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+    hamburger.addEventListener('click', () => {
+        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', !expanded);
+        navLinks.classList.toggle('open');
+    });
+    // Keyboard accessibility for hamburger
+    hamburger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            hamburger.click();
+        }
+    });
+    </script>
+</body>
+</html> 
