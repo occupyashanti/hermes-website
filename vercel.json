@@ -1,0 +1,20 @@
+{
+  "builds": [
+    {
+      "src": "hermes_website/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxDuration": 10 }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "hermes_website/wsgi.py"
+    }
+  ],
+  "buildCommand": "python manage.py collectstatic --noinput"
+} 
